@@ -17,7 +17,7 @@ const ChatRoom = () => {
 
     const sendMessage = async () => {
         try {
-            await fetch('https://me-chat-five.vercel.app//messages', {
+            await fetch('https://me-chat-five.vercel.app/messages', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
