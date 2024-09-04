@@ -18,6 +18,9 @@ mongoose.connect(process.env.MONGO_URI, {
   useUnifiedTopology: true,
 });
 
+app.get("/", async(req, res) => {
+  res.json("Hii");
+})
 // Routes
 app.get('/messages', async (req, res) => {
   try {
