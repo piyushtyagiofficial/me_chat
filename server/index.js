@@ -11,7 +11,7 @@ dotenv.config();
 // Middleware
 
 app.use(cors({
-    origin: 'https://me-chat-five.vercel.app/',
+    origin: 'https://me-chat-web-six.vercel.app/',
     methods: 'GET,POST',  
 }));
 
