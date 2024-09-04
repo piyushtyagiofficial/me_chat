@@ -9,7 +9,12 @@ const PORT = process.env.PORT || 5000;
 
 dotenv.config();
 // Middleware
-app.use(cors());
+
+app.use(cors({
+    origin: 'https://me-chat-five.vercel.app/',
+    methods: 'GET,POST',  
+}));
+
 app.use(express.json());
 
 // MongoDB Connection
