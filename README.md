@@ -1,4 +1,4 @@
-# Project Name
+# Me Chat
 
 ## Overview
 
@@ -59,10 +59,6 @@ The server is an Express-based backend API that provides endpoints for the clien
     npm install
     ```
 
-### Scripts
-
-- `npm test`: Runs tests (currently not specified).
-
 ## Configuration
 
 - **Client**:
@@ -76,13 +72,13 @@ The server is an Express-based backend API that provides endpoints for the clien
 1. **Start the server**:
     ```bash
     cd server
-    npm start
+    npm run start
     ```
 
 2. **Start the client**:
     ```bash
     cd client
-    npm start
+    node index.js
     ```
 
 Make sure to configure the server and client to communicate with each other (e.g., set the correct API endpoint URLs in the client).
