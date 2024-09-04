@@ -7,7 +7,7 @@ const ChatRoom = () => {
 
     const fetchMessages = async () => {
         try {
-            const response = await fetch('https://me-chat-five.vercel.app//messages');
+            const response = await fetch('https://me-chat-five.vercel.app/messages');
             const data = await response.json();
             setMessages(data);
         } catch (error) {
